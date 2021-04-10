@@ -5,6 +5,9 @@ class User(models.Model):
     user_id = models.CharField(max_length=128, null=False)
     password = models.CharField(max_length=128, null=False)
     address = models.CharField(max_length=256, null=False)
+    created = models.DateTimeField(auto_now_add=True)
+    updated = models.DateTimeField(auto_now=True)
 
     class Meta:
         db_table = "User"
+        ordering = ['created']

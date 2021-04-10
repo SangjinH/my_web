@@ -102,3 +102,10 @@ class UserSerializer(serializers.ModelSerializer): # rest_framework에서 serial
 
 
 
+---
+
+## 2021.04.10
+
+> 1. 현재 api에 대한 decorator에 대한 연결.
+>
+> 2. api 권한설정 ( user, article )
