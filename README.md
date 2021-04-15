@@ -109,3 +109,17 @@ class UserSerializer(serializers.ModelSerializer): # rest_framework에서 serial
 > 1. 현재 api에 대한 decorator에 대한 연결.
 >
 > 2. api 권한설정 ( user, article )
+
+
+
+---
+
+## 2021.04.15
+
+> 드디어 RestAPI의 구조와 
+>
+> 권한설정, 토크발행까지 완료했다.
+>
+> 이해하는데 꽤 많은 시간을 소요했다.... 약 5번 정도 뒤엎은듯.....
+>
+> 이제는 **1:N 관계설정**을 해봐야겠다
